@@ -1,0 +1,17 @@
+@media (max-width: 375px){
+    body {
+        flex-direction: column;
+        background-image: url('../assets/bg-intro-mobile.png');
+        padding: 20px;
+        .description {
+            width: 100%;
+            text-align: center;
+        }
+        .singUp {
+            width: 100%;
+            form {
+                width: 100%;
+            }
+        }
+    }
+}
