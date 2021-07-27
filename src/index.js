@@ -27,7 +27,7 @@ function manageClassnames(el, operator, classname) {
     el.classList[operator](classname);
 }
 
-function validateInput(input, alert, svg, div){
+function validateInput(input, alert, svg, div) {
     let inputEl = input.value;
     if (!inputEl) {
         alert.classList.add('show');
